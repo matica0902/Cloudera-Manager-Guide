@@ -1,28 +1,29 @@
 ### Cloudera Manager Install Schema
 
-## Clouder Manager 官網簡介導引
-[Cloudera Introduction] (不用看)
+## Clouder Manager  官網簡介導引
+[Cloudera Introduction] //-->不用看
 [Cloudera Quickstart]
-   . Cloudera quickstart VM   //直接啟用VM不需安裝  
-   . Cloudera Manager and CDH QuickStart Guide //使用 "installer" 快速安裝  
-   . CDH QuickStart Guide //是"手動"安裝 一個Pseudo-distributed Mode  
-   . Cloudera search QuickStart Guide Docker container //(不用看)雲端  小結基本上若是要單人玩玩 [1][3]是都很好的選項
-[Cloudera Manager]==> //不重要
+   . Cloudera quickstart VM   //<--直接啟用VM不需安裝  
+   . Cloudera Manager and CDH QuickStart Guide //<--使用 "installer" 快速安裝  
+   . CDH QuickStart Guide //<--是"手動"安裝 一個Pseudo-distributed Mode  
+   . Cloudera search QuickStart Guide Docker container //<--不用看)雲端  小結基本上若是要單人玩玩 [1][3]是都很好的選項
+[Cloudera Manager]==> //<--不重要
 [Cloudera installation]  
-  >> Configuration Requiremnets for Cloudera Manager... //(千萬別看因為你是使用clodera Manager安裝)
-  >> Manager Software installation Using Cloudera manager //簡介安裝CM的套件方式         
+  >> Configuration Requiremnets for Cloudera Manager... //-->千萬別看因為你是使用clodera Manager安裝
+  >> Manager Software installation Using Cloudera manager //-->簡介安裝CM的套件方式         
       . Parcel          
       . (不用看)         
       . (不用看)         
       . (不用看)
-  >> Installing Cloudera Manager and CDH...//說明如何安裝CM及"ABC"各種PATH安裝方法
+  >> Installing Cloudera Manager and CDH...//-->說明如何安裝CM及"ABC"各種PATH安裝方法
       . Java Development kit installation //
-      . configuring Single user Mode //說明安裝CM都是使用single mode 原由         
+      . configuring Single user Mode //-->說明安裝CM都是使用single mode 原由         
       . Cloudera Manager and managed service Datastores //
           .. Embedded PostgreSQL database
-                 > Stopping the Embedded PostgreSQL Database 有許多相依關係
-          
-          .. External PostgreSQL database               
+                 > Installing and Starting the Embedded PostgreSQL Database
+                 > Stopping the Embedded PostgreSQL Database // 有許多相依關係
+                 > Changing Embedded PostgreSQL Database Passwords
+          .. External PostgreSQL database               
           .. MariaDB Database               
           .. MySQL Database                
           .. Oracle Database
@@ -31,9 +32,9 @@
           .. Backing Up Databases
           .. Data storage for mornitoring Data
           .. stoage Space Planning for cloudera Manager
-      . Installtion Path A-Automated Installation by Cloudera manager //就是不用下載Parcel所以不用看
-      . Installtion Path B-Installation using Parcel or Packages //         
-      . Installtion Path C-Manual Installation using Tarballs //         
+      . Installtion Path A-Automated Installation by Cloudera manager //網路安裝就是不用下載Parcel所以不用看
+      . Installtion Path B-Installation using Parcel or Packages //主要安裝方式         
+      . Installtion Path C-Manual Installation using Tarballs //不用看         
       . Installing Impala,Kuda,Cloudera Search,Spark,... //         
       . Understanding 
   >> Installing and Deploying CDH using the command Line //(不用看完全手動安裝因為確定不是使用Cloudera Manager) 
@@ -55,3 +56,9 @@
 (F)Setting up Cloudera Manager
 (G)Setting up CDH
 (H)
+
+
+
+
+
+
